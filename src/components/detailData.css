@@ -1,0 +1,40 @@
+.section {
+   padding: 8px 0;
+}
+
+.section--flex {
+   align-items: center;
+   display: flex;
+}
+
+.section--flex div {
+   flex-grow: 1;
+}
+
+.section__title {
+   font-size: 15px;
+   margin-bottom: 5px;
+}
+
+.pokemonDetail__image {
+   flex: 0 0 42%;
+   margin-right: 8%;
+}
+
+.pokemonDetail__image img {
+   width: 100%;
+}
+
+.pokemonDetail__name {
+   color: #3761a8 ;
+   font-family: monospace, 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
+   font-weight: 400;
+}
+
+.pokemonDetail__data dt {
+   color: #666;
+   font-size: 12px;
+   margin-top: 10px;
+}
+
+

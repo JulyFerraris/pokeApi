@@ -1,0 +1,16 @@
+.feature {
+   list-style: none;
+}
+
+.feature__item {
+   background-color: #999;
+   border-radius: 20px;
+   color: white;
+   display: inline-block;
+   margin-bottom: 5px;
+   padding: 5px 15px;
+}
+
+.feature__item + .feature__item {
+   margin-left: 5px;
+} 

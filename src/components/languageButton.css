@@ -1,0 +1,38 @@
+.language__button {
+   background-color: transparent;
+   border-radius: 50%;
+   border: none;
+   cursor: pointer;
+   height: 40px;
+   margin: 1vw;
+   overflow: hidden;
+   padding: 0;
+   transition: all ease-in-out .1s;
+   width: 40px;
+   animation: scale-in-center 1.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+   z-index: 3;
+   position: relative;
+}
+
+.language__button:hover {
+   box-shadow: 0 3px 5px #666;
+   transform: translateY(-3px)
+}
+
+.language__button img {
+   display: block;
+   width: 40px;
+}
+
+
+@keyframes scale-in-center {
+   0% {
+     transform: scale(0);
+     opacity: 1;
+   }
+   100% {
+     transform: scale(1);
+     opacity: 1;
+   }
+ }
+ 
